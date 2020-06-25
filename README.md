@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Technology stack includes React, redux for state management, express for the rest API and a mongoDB database.
+React is only functional components using hooks for component initialisation and no class based components.
+
+In order to run app
+
+1. clone backend repo at: https://github.com/FrancoisvanRensburg/Debate_backend
+2. Create environment variables for
+   2.1. REACT_APP_API_BASE=http://localhost:5000/api
+3. run start script.
+
 ## Available Scripts
 
 In the project directory, you can run:
